@@ -1,0 +1,421 @@
+./waf
+Waf: Entering directory `/home/samettonyali/Desktop/dce/source/ns-3-dce/build'
+
+--------------------------------------------------------------------
+ Python bindings compilation 
+--------------------------------------------------------------------
+[  1/377] ./include/ns3/netlink-module.h: netlink/netlink-socket-factory.h netlink/netlink-socket-address.h -> build/include/ns3/netlink-module.h
+[  2/377] ./include/ns3/dce-module.h: model/dce-manager.h model/task-scheduler.h model/task-manager.h model/socket-fd-factory.h model/loader-factory.h model/dce-application.h model/ipv4-dce-routing.h model/linux/ipv4-linux.h model/linux/ipv6-linux.h model/freebsd/ipv4-freebsd.h model/process-delay-model.h model/exec-utils.h model/utils.h model/linux/linux-ipv4-raw-socket-factory.h model/linux/linux-ipv6-raw-socket-factory.h model/linux/linux-udp-socket-factory.h model/linux/linux-udp6-socket-factory.h model/linux/linux-tcp-socket-factory.h model/linux/linux-tcp6-socket-factory.h model/linux/linux-dccp-socket-factory.h model/linux/linux-dccp6-socket-factory.h model/linux/linux-sctp-socket-factory.h model/linux/linux-sctp6-socket-factory.h helper/dce-manager-helper.h helper/dce-application-helper.h helper/ccn-client-helper.h helper/ipv4-dce-routing-helper.h helper/linux-stack-helper.h helper/freebsd-stack-helper.h model/kernel-socket-fd-factory.h model/linux-socket-fd-factory.h model/freebsd-socket-fd-factory.h model/linux/linux-socket-impl.h -> build/include/ns3/dce-module.h
+[  3/377] cxx: netlink/netlink-socket.cc -> build/netlink/netlink-socket.cc.1.o
+[  4/377] cxx: netlink/netlink-socket-address.cc -> build/netlink/netlink-socket-address.cc.1.o
+[  5/377] cxx: netlink/netlink-socket-factory.cc -> build/netlink/netlink-socket-factory.cc.1.o
+[  6/377] cxx: netlink/netlink-attribute.cc -> build/netlink/netlink-attribute.cc.1.o
+[  7/377] cxx: netlink/netlink-message.cc -> build/netlink/netlink-message.cc.1.o
+[  8/377] cxx: netlink/netlink-message-route.cc -> build/netlink/netlink-message-route.cc.1.o
+[  9/377] lib/pkgconfig/libns3-dev-netlink-debug.pc:  -> build/lib/pkgconfig/libns3-dev-netlink-debug.pc
+[ 10/377] cxx: model/dce-manager.cc -> build/model/dce-manager.cc.6.o
+[ 11/377] cxx: model/dce-application.cc -> build/model/dce-application.cc.6.o
+[ 12/377] cxx: model/dce.cc -> build/model/dce.cc.6.o
+[ 13/377] cxx: model/dce-signal.cc -> build/model/dce-signal.cc.6.o
+[ 14/377] cxx: model/libc-dce.cc -> build/model/libc-dce.cc.6.o
+[ 15/377] cxx: model/utils.cc -> build/model/utils.cc.6.o
+[ 16/377] cxx: model/unix-fd.cc -> build/model/unix-fd.cc.6.o
+[ 17/377] cxx: model/unix-file-fd.cc -> build/model/unix-file-fd.cc.6.o
+[ 18/377] cxx: model/unix-socket-fd.cc -> build/model/unix-socket-fd.cc.6.o
+[ 19/377] cxx: model/unix-datagram-socket-fd.cc -> build/model/unix-datagram-socket-fd.cc.6.o
+../model/libc-ns3.h: In function ‘void libc_dce(Libc**)’:
+../model/libc-ns3.h:225:6: warning: ‘char* getwd(char*)’ is deprecated (declared at /usr/include/unistd.h:525) [-Wdeprecated-declarations]
+ DCE (getwd)
+      ^
+../model/libc-dce.cc:154:62: note: in definition of macro ‘DCE’
+ #define DCE(name) (*libc)->name ## _fn = (func_t)(__typeof (&name))dce_ ## name;
+                                                              ^
+[ 20/377] cxx: model/unix-stream-socket-fd.cc -> build/model/unix-stream-socket-fd.cc.6.o
+[ 21/377] cxx: model/unix-timer-fd.cc -> build/model/unix-timer-fd.cc.6.o
+[ 22/377] cxx: model/dce-fd.cc -> build/model/dce-fd.cc.6.o
+[ 23/377] cxx: model/dce-stdio.cc -> build/model/dce-stdio.cc.6.o
+[ 24/377] cxx: model/dce-pthread.cc -> build/model/dce-pthread.cc.6.o
+[ 25/377] cxx: model/dce-stdlib.cc -> build/model/dce-stdlib.cc.6.o
+[ 26/377] cxx: model/dce-debug.cc -> build/model/dce-debug.cc.6.o
+[ 27/377] cxx: model/dce-semaphore.cc -> build/model/dce-semaphore.cc.6.o
+[ 28/377] cxx: model/dce-pthread-mutex.cc -> build/model/dce-pthread-mutex.cc.6.o
+[ 29/377] cxx: model/dce-cxa.cc -> build/model/dce-cxa.cc.6.o
+[ 30/377] cxx: model/dce-netdb.cc -> build/model/dce-netdb.cc.6.o
+[ 31/377] cxx: model/dce-string.cc -> build/model/dce-string.cc.6.o
+[ 32/377] cxx: model/dce-env.cc -> build/model/dce-env.cc.6.o
+[ 33/377] cxx: model/dce-pthread-cond.cc -> build/model/dce-pthread-cond.cc.6.o
+[ 34/377] cxx: model/dce-timerfd.cc -> build/model/dce-timerfd.cc.6.o
+[ 35/377] cxx: model/dce-time.cc -> build/model/dce-time.cc.6.o
+[ 36/377] cxx: model/dce-stat.cc -> build/model/dce-stat.cc.6.o
+[ 37/377] cxx: model/dce-syslog.cc -> build/model/dce-syslog.cc.6.o
+[ 38/377] cxx: model/dce-dl.cc -> build/model/dce-dl.cc.6.o
+[ 39/377] cxx: model/dce-global-variables.cc -> build/model/dce-global-variables.cc.6.o
+[ 40/377] cxx: model/cmsg.cc -> build/model/cmsg.cc.6.o
+[ 41/377] cxx: model/waiter.cc -> build/model/waiter.cc.6.o
+[ 42/377] cxx: model/kingsley-alloc.cc -> build/model/kingsley-alloc.cc.6.o
+[ 43/377] cxx: model/dce-alloc.cc -> build/model/dce-alloc.cc.6.o
+[ 44/377] cxx: model/fiber-manager.cc -> build/model/fiber-manager.cc.6.o
+[ 45/377] cxx: model/ucontext-fiber-manager.cc -> build/model/ucontext-fiber-manager.cc.6.o
+[ 46/377] cxx: model/pthread-fiber-manager.cc -> build/model/pthread-fiber-manager.cc.6.o
+[ 47/377] cxx: model/task-manager.cc -> build/model/task-manager.cc.6.o
+[ 48/377] cxx: model/task-scheduler.cc -> build/model/task-scheduler.cc.6.o
+[ 49/377] cxx: model/rr-task-scheduler.cc -> build/model/rr-task-scheduler.cc.6.o
+[ 50/377] cxx: model/loader-factory.cc -> build/model/loader-factory.cc.6.o
+[ 51/377] cxx: model/elf-dependencies.cc -> build/model/elf-dependencies.cc.6.o
+[ 52/377] cxx: model/elf-cache.cc -> build/model/elf-cache.cc.6.o
+[ 53/377] cxx: model/cooja-loader-factory.cc -> build/model/cooja-loader-factory.cc.6.o
+[ 54/377] cxx: model/dlm-loader-factory.cc -> build/model/dlm-loader-factory.cc.6.o
+[ 55/377] cxx: model/socket-fd-factory.cc -> build/model/socket-fd-factory.cc.6.o
+[ 56/377] cxx: model/ns3-socket-fd-factory.cc -> build/model/ns3-socket-fd-factory.cc.6.o
+[ 57/377] cxx: model/local-socket-fd.cc -> build/model/local-socket-fd.cc.6.o
+[ 58/377] cxx: model/local-stream-socket-fd.cc -> build/model/local-stream-socket-fd.cc.6.o
+[ 59/377] cxx: model/local-datagram-socket-fd.cc -> build/model/local-datagram-socket-fd.cc.6.o
+[ 60/377] cxx: model/local-socket-fd-factory.cc -> build/model/local-socket-fd-factory.cc.6.o
+[ 61/377] cxx: model/dce-umask.cc -> build/model/dce-umask.cc.6.o
+[ 62/377] cxx: model/dce-misc.cc -> build/model/dce-misc.cc.6.o
+[ 63/377] cxx: model/dce-node-context.cc -> build/model/dce-node-context.cc.6.o
+[ 64/377] cxx: model/dce-wait.cc -> build/model/dce-wait.cc.6.o
+[ 65/377] cxx: model/wait-queue.cc -> build/model/wait-queue.cc.6.o
+[ 66/377] cxx: model/file-usage.cc -> build/model/file-usage.cc.6.o
+[ 67/377] cxx: model/dce-poll.cc -> build/model/dce-poll.cc.6.o
+[ 68/377] cxx: model/ipv4-dce-routing.cc -> build/model/ipv4-dce-routing.cc.6.o
+[ 69/377] cxx: model/dce-credentials.cc -> build/model/dce-credentials.cc.6.o
+[ 70/377] cxx: model/dce-pwd.cc -> build/model/dce-pwd.cc.6.o
+[ 71/377] cxx: model/pipe-fd.cc -> build/model/pipe-fd.cc.6.o
+[ 72/377] cxx: model/fifo-buffer.cc -> build/model/fifo-buffer.cc.6.o
+[ 73/377] cxx: model/dce-dirent.cc -> build/model/dce-dirent.cc.6.o
+[ 74/377] cxx: model/dce-at.cc -> build/model/dce-at.cc.6.o
+[ 75/377] cxx: model/exec-utils.cc -> build/model/exec-utils.cc.6.o
+[ 76/377] cxx: model/linux/ipv4-linux.cc -> build/model/linux/ipv4-linux.cc.6.o
+[ 77/377] cxx: model/linux/ipv6-linux.cc -> build/model/linux/ipv6-linux.cc.6.o
+[ 78/377] cxx: model/freebsd/ipv4-freebsd.cc -> build/model/freebsd/ipv4-freebsd.cc.6.o
+[ 79/377] cxx: model/dce-vfs.cc -> build/model/dce-vfs.cc.6.o
+[ 80/377] cxx: model/elf-ldd.cc -> build/model/elf-ldd.cc.6.o
+[ 81/377] cxx: model/dce-termio.cc -> build/model/dce-termio.cc.6.o
+[ 82/377] cxx: model/process-delay-model.cc -> build/model/process-delay-model.cc.6.o
+[ 83/377] cxx: model/linux/linux-ipv4-raw-socket-factory.cc -> build/model/linux/linux-ipv4-raw-socket-factory.cc.6.o
+[ 84/377] cxx: model/linux/linux-ipv4-raw-socket-factory-impl.cc -> build/model/linux/linux-ipv4-raw-socket-factory-impl.cc.6.o
+[ 85/377] cxx: model/linux/linux-ipv6-raw-socket-factory.cc -> build/model/linux/linux-ipv6-raw-socket-factory.cc.6.o
+[ 86/377] cxx: model/linux/linux-ipv6-raw-socket-factory-impl.cc -> build/model/linux/linux-ipv6-raw-socket-factory-impl.cc.6.o
+[ 87/377] cxx: model/linux/linux-udp-socket-factory.cc -> build/model/linux/linux-udp-socket-factory.cc.6.o
+[ 88/377] cxx: model/linux/linux-udp-socket-factory-impl.cc -> build/model/linux/linux-udp-socket-factory-impl.cc.6.o
+[ 89/377] cxx: model/linux/linux-udp6-socket-factory.cc -> build/model/linux/linux-udp6-socket-factory.cc.6.o
+[ 90/377] cxx: model/linux/linux-udp6-socket-factory-impl.cc -> build/model/linux/linux-udp6-socket-factory-impl.cc.6.o
+[ 91/377] cxx: model/linux/linux-tcp-socket-factory.cc -> build/model/linux/linux-tcp-socket-factory.cc.6.o
+[ 92/377] cxx: model/linux/linux-tcp-socket-factory-impl.cc -> build/model/linux/linux-tcp-socket-factory-impl.cc.6.o
+[ 93/377] cxx: model/linux/linux-tcp6-socket-factory.cc -> build/model/linux/linux-tcp6-socket-factory.cc.6.o
+[ 94/377] cxx: model/linux/linux-tcp6-socket-factory-impl.cc -> build/model/linux/linux-tcp6-socket-factory-impl.cc.6.o
+[ 95/377] cxx: model/linux/linux-dccp-socket-factory.cc -> build/model/linux/linux-dccp-socket-factory.cc.6.o
+[ 96/377] cxx: model/linux/linux-dccp-socket-factory-impl.cc -> build/model/linux/linux-dccp-socket-factory-impl.cc.6.o
+[ 97/377] cxx: model/linux/linux-dccp6-socket-factory.cc -> build/model/linux/linux-dccp6-socket-factory.cc.6.o
+[ 98/377] cxx: model/linux/linux-dccp6-socket-factory-impl.cc -> build/model/linux/linux-dccp6-socket-factory-impl.cc.6.o
+[ 99/377] cxx: model/linux/linux-sctp-socket-factory.cc -> build/model/linux/linux-sctp-socket-factory.cc.6.o
+[100/377] cxx: model/linux/linux-sctp-socket-factory-impl.cc -> build/model/linux/linux-sctp-socket-factory-impl.cc.6.o
+[101/377] cxx: model/linux/linux-sctp6-socket-factory.cc -> build/model/linux/linux-sctp6-socket-factory.cc.6.o
+[102/377] cxx: model/linux/linux-sctp6-socket-factory-impl.cc -> build/model/linux/linux-sctp6-socket-factory-impl.cc.6.o
+[103/377] cxx: helper/ipv4-dce-routing-helper.cc -> build/helper/ipv4-dce-routing-helper.cc.6.o
+[104/377] cxx: helper/dce-manager-helper.cc -> build/helper/dce-manager-helper.cc.6.o
+[105/377] cxx: helper/dce-application-helper.cc -> build/helper/dce-application-helper.cc.6.o
+[106/377] cxx: helper/ccn-client-helper.cc -> build/helper/ccn-client-helper.cc.6.o
+[107/377] cxx: helper/linux-stack-helper.cc -> build/helper/linux-stack-helper.cc.6.o
+[108/377] cxx: helper/freebsd-stack-helper.cc -> build/helper/freebsd-stack-helper.cc.6.o
+[109/377] cxx: model/kernel-socket-fd-factory.cc -> build/model/kernel-socket-fd-factory.cc.6.o
+[110/377] cxx: model/kernel-socket-fd.cc -> build/model/kernel-socket-fd.cc.6.o
+[111/377] cxx: model/linux-socket-fd-factory.cc -> build/model/linux-socket-fd-factory.cc.6.o
+[112/377] cxx: model/freebsd-socket-fd-factory.cc -> build/model/freebsd-socket-fd-factory.cc.6.o
+[113/377] cxx: model/linux/linux-socket-impl.cc -> build/model/linux/linux-socket-impl.cc.6.o
+[114/377] lib/pkgconfig/libns3-dev-dce-debug.pc:  -> build/lib/pkgconfig/libns3-dev-dce-debug.pc
+[115/377] cxx: myscripts/ccn-tap-vlc/dce-ccn-vlc.cc -> build/myscripts/ccn-tap-vlc/dce-ccn-vlc.cc.1.o
+[116/377] c: myscripts/sleep/tenseconds.c -> build/myscripts/sleep/tenseconds.c.1.o
+[117/377] cxx: myscripts/sleep/dce-sleep.cc -> build/myscripts/sleep/dce-sleep.cc.2.o
+[118/377] cxx: myscripts/tuto2/dce-tuto2.cc -> build/myscripts/tuto2/dce-tuto2.cc.1.o
+[119/377] cxx: myscripts/btorrent1/dce-bt1.cc -> build/myscripts/btorrent1/dce-bt1.cc.1.o
+[120/377] cxx: myscripts/loaders-test/dce-twin.cc -> build/myscripts/loaders-test/dce-twin.cc.1.o
+[121/377] cxx: myscripts/loaders-test/dce-twin.cc -> build/myscripts/loaders-test/dce-twin.cc.2.o
+[122/377] cxx: myscripts/loaders-test/mytest.cc -> build/myscripts/loaders-test/mytest.cc.3.o
+[123/377] cxx: myscripts/loaders-test/mylib.cc -> build/myscripts/loaders-test/mylib.cc.4.o
+[124/377] cxx: myscripts/ccn-mt1/ccn-mt1.cc -> build/myscripts/ccn-mt1/ccn-mt1.cc.1.o
+[125/377] cxx: myscripts/iperf-multi/dce-iperf-multi.cc -> build/myscripts/iperf-multi/dce-iperf-multi.cc.1.o
+[126/377] cxx: myscripts/mt3/dce-mt3.cc -> build/myscripts/mt3/dce-mt3.cc.1.o
+[127/377] cxx: myscripts/ping/dce-ping.cc -> build/myscripts/ping/dce-ping.cc.1.o
+[128/377] cxx: myscripts/ping/misc-tools.cc -> build/myscripts/ping/misc-tools.cc.1.o
+[129/377] cxx: myscripts/tuto3/dce-tuto3.cc -> build/myscripts/tuto3/dce-tuto3.cc.1.o
+[130/377] cxx: myscripts/ccn-exp1/dce-ccn-exp1.cc -> build/myscripts/ccn-exp1/dce-ccn-exp1.cc.1.o
+[131/377] cxx: myscripts/ping-mt1/ping-mt1.cc -> build/myscripts/ping-mt1/ping-mt1.cc.1.o
+[132/377] cxx: myscripts/dce-emu-ping/dce-emu-ping.cc -> build/myscripts/dce-emu-ping/dce-emu-ping.cc.1.o
+[133/377] cxx: myscripts/dce-emu-ping/misc-tools.cc -> build/myscripts/dce-emu-ping/misc-tools.cc.1.o
+[134/377] cxx: myscripts/tuto1/dce-tuto1.cc -> build/myscripts/tuto1/dce-tuto1.cc.1.o
+[135/377] cxx: myscripts/mt2/dce-mt2.cc -> build/myscripts/mt2/dce-mt2.cc.1.o
+[136/377] c: myscripts/mt2/mcreceive.c -> build/myscripts/mt2/mcreceive.c.2.o
+[137/377] c: myscripts/mt2/mcsend.c -> build/myscripts/mt2/mcsend.c.3.o
+[138/377] c: myscripts/ccn-common/my-client.c -> build/myscripts/ccn-common/my-client.c.1.o
+[139/377] c: myscripts/ccn-common/my-serveur.c -> build/myscripts/ccn-common/my-serveur.c.2.o
+[140/377] c: myscripts/ccn-common/lanceur.c -> build/myscripts/ccn-common/lanceur.c.3.o
+[141/377] cxx: myscripts/ccn-common/bug1167.cc -> build/myscripts/ccn-common/bug1167.cc.4.o
+[142/377] cxx: myscripts/coap/dce-coap.cc -> build/myscripts/coap/dce-coap.cc.1.o
+[143/377] cxx: test/dce-manager-test.cc -> build/test/dce-manager-test.cc.11.o
+[144/377] cxx: test/dce-cradle-test.cc -> build/test/dce-cradle-test.cc.11.o
+[145/377] cxx: test/dce-mptcp-test.cc -> build/test/dce-mptcp-test.cc.11.o
+[146/377] cxx: test/addons/dce-linux-ip6-test.cc -> build/test/addons/dce-linux-ip6-test.cc.11.o
+[147/377] cxx: test/test-macros.cc -> build/test/test-macros.cc.13.o
+[148/377] cxx: test/test-empty.cc -> build/test/test-empty.cc.14.o
+[149/377] cxx: test/test-sleep.cc -> build/test/test-sleep.cc.15.o
+[150/377] cxx: test/test-nanosleep.cc -> build/test/test-nanosleep.cc.16.o
+[151/377] cxx: test/test-pthread.cc -> build/test/test-pthread.cc.17.o
+[152/377] cxx: test/test-mutex.cc -> build/test/test-mutex.cc.18.o
+[153/377] cxx: test/test-once.cc -> build/test/test-once.cc.19.o
+../myscripts/mt3/dce-mt3.cc: In function ‘int main(int, char**)’:
+../myscripts/mt3/dce-mt3.cc:119:42: warning: ‘static ns3::WifiHelper ns3::WifiHelper::Default()’ is deprecated (declared at /home/samettonyali/Desktop/dce/build/include/ns3-dev/ns3/wifi-helper.h:239) [-Wdeprecated-declarations]
+   WifiHelper wifi = WifiHelper::Default ();
+                                          ^
+[154/377] cxx: test/test-pthread-key.cc -> build/test/test-pthread-key.cc.20.o
+[155/377] cxx: test/test-sem.cc -> build/test/test-sem.cc.21.o
+[156/377] cxx: test/test-malloc.cc -> build/test/test-malloc.cc.22.o
+[157/377] cxx: test/test-malloc-2.cc -> build/test/test-malloc-2.cc.23.o
+[158/377] cxx: test/test-fd-simple.cc -> build/test/test-fd-simple.cc.24.o
+[159/377] cxx: test/test-strerror.cc -> build/test/test-strerror.cc.25.o
+[160/377] cxx: test/test-stdio.cc -> build/test/test-stdio.cc.26.o
+[161/377] cxx: test/test-string.cc -> build/test/test-string.cc.27.o
+[162/377] cxx: test/test-netdb.cc -> build/test/test-netdb.cc.28.o
+[163/377] cxx: test/test-env.cc -> build/test/test-env.cc.29.o
+[164/377] cxx: test/test-cond.cc -> build/test/test-cond.cc.30.o
+[165/377] cxx: test/test-timer-fd.cc -> build/test/test-timer-fd.cc.31.o
+[166/377] cxx: test/test-stdlib.cc -> build/test/test-stdlib.cc.32.o
+../test/test-fd-simple.cc: In function ‘void test_cwd()’:
+../test/test-fd-simple.cc:320:9: warning: ‘char* getwd(char*)’ is deprecated (declared at /usr/include/unistd.h:525) [-Wdeprecated-declarations]
+   cwd = getwd (tmp);
+         ^
+../test/test-fd-simple.cc:320:19: warning: ‘char* getwd(char*)’ is deprecated (declared at /usr/include/unistd.h:525) [-Wdeprecated-declarations]
+   cwd = getwd (tmp);
+                   ^
+[167/377] cxx: test/test-select.cc -> build/test/test-select.cc.33.o
+[168/377] cxx: test/test-random.cc -> build/test/test-random.cc.34.o
+[169/377] cxx: test/test-ioctl.cc -> build/test/test-ioctl.cc.35.o
+[170/377] cxx: test/test-fork.cc -> build/test/test-fork.cc.36.o
+[171/377] cxx: test/test-local-socket.cc -> build/test/test-local-socket.cc.37.o
+[172/377] cxx: test/test-poll.cc -> build/test/test-poll.cc.38.o
+[173/377] cxx: test/test-tcp-socket.cc -> build/test/test-tcp-socket.cc.39.o
+[174/377] cxx: test/test-exec.cc -> build/test/test-exec.cc.40.o
+[175/377] cxx: test/test-exec-target-1.cc -> build/test/test-exec-target-1.cc.41.o
+[176/377] cxx: test/test-raw-socket.cc -> build/test/test-raw-socket.cc.42.o
+[177/377] cxx: test/test-fork-fd.cc -> build/test/test-fork-fd.cc.43.o
+[178/377] cxx: test/test-iperf.cc -> build/test/test-iperf.cc.44.o
+[179/377] cxx: test/test-name.cc -> build/test/test-name.cc.45.o
+[180/377] cxx: test/test-pipe.cc -> build/test/test-pipe.cc.46.o
+[181/377] cxx: test/test-dirent.cc -> build/test/test-dirent.cc.47.o
+[182/377] cxx: test/test-socket.cc -> build/test/test-socket.cc.48.o
+[183/377] cxx: test/test-bug-multi-select.cc -> build/test/test-bug-multi-select.cc.49.o
+[184/377] cxx: test/test-tsearch.cc -> build/test/test-tsearch.cc.50.o
+[185/377] cxx: test/test-signal.cc -> build/test/test-signal.cc.51.o
+[186/377] cxx: test/test-clock-gettime.cc -> build/test/test-clock-gettime.cc.52.o
+[187/377] cxx: test/test-gcc-builtin-apply.cc -> build/test/test-gcc-builtin-apply.cc.53.o
+[188/377] cxx: example/udp-server.cc -> build/example/udp-server.cc.54.o
+[189/377] cxx: example/udp-client.cc -> build/example/udp-client.cc.55.o
+[190/377] cxx: example/udp-perf.cc -> build/example/udp-perf.cc.56.o
+[191/377] cxx: example/tcp-server.cc -> build/example/tcp-server.cc.57.o
+[192/377] cxx: example/tcp-client.cc -> build/example/tcp-client.cc.58.o
+[193/377] cxx: example/tcp-loopback.cc -> build/example/tcp-loopback.cc.59.o
+[194/377] cxx: example/unix-server.cc -> build/example/unix-server.cc.60.o
+[195/377] cxx: example/unix-client.cc -> build/example/unix-client.cc.61.o
+[196/377] cxx: example/udp-echo-server.cc -> build/example/udp-echo-server.cc.62.o
+[197/377] cxx: example/udp-echo-client.cc -> build/example/udp-echo-client.cc.63.o
+[198/377] cxx: example/dccp-server.cc -> build/example/dccp-server.cc.64.o
+[199/377] cxx: example/dccp-client.cc -> build/example/dccp-client.cc.65.o
+[200/377] cxx: example/freebsd-iproute.cc -> build/example/freebsd-iproute.cc.66.o
+[201/377] cxx: example/dce-tcp-simple.cc -> build/example/dce-tcp-simple.cc.67.o
+[202/377] cxx: example/dce-udp-simple.cc -> build/example/dce-udp-simple.cc.68.o
+[203/377] cxx: example/ccnx/dce-ccnd-simple.cc -> build/example/ccnx/dce-ccnd-simple.cc.69.o
+[204/377] cxx: example/ccnx/dce-ccnd-short-stuff.cc -> build/example/ccnx/dce-ccnd-short-stuff.cc.70.o
+[205/377] cxx: example/ccnx/dce-tap-udp-echo.cc -> build/example/ccnx/dce-tap-udp-echo.cc.71.o
+[206/377] cxx: example/ccnx/dce-tap-ccnd.cc -> build/example/ccnx/dce-tap-ccnd.cc.72.o
+[207/377] cxx: example/ccnx/dce-tap-vlc.cc -> build/example/ccnx/dce-tap-vlc.cc.73.o
+[208/377] cxx: example/bash/dce-bash-simple.cc -> build/example/bash/dce-bash-simple.cc.74.o
+[209/377] cxx: example/ccnx/dce-ccn-cache.cc -> build/example/ccnx/dce-ccn-cache.cc.75.o
+[210/377] cxx: example/ccnx/misc-tools.cc -> build/example/ccnx/misc-tools.cc.75.o
+[211/377] cxx: example/dce-iperf.cc -> build/example/dce-iperf.cc.76.o
+[212/377] cxx: example/ccnx/misc-tools.cc -> build/example/ccnx/misc-tools.cc.76.o
+[213/377] cxx: example/dce-iperf-emulation.cc -> build/example/dce-iperf-emulation.cc.77.o
+[214/377] cxx: example/ccnx/misc-tools.cc -> build/example/ccnx/misc-tools.cc.77.o
+[215/377] cxx: example/linear-udp-perf.cc -> build/example/linear-udp-perf.cc.78.o
+[216/377] cxx: example/dce-debug-aspect.cc -> build/example/dce-debug-aspect.cc.79.o
+[217/377] cxx: test/netlink-socket-test.cc -> build/test/netlink-socket-test.cc.80.o
+[218/377] cxx: example/dce-udp-perf.cc -> build/example/dce-udp-perf.cc.82.o
+[219/377] cxx: example/dce-linux-simple.cc -> build/example/dce-linux-simple.cc.83.o
+[220/377] cxx: example/dce-linux.cc -> build/example/dce-linux.cc.84.o
+[221/377] cxx: example/dce-dccp.cc -> build/example/dce-dccp.cc.85.o
+[222/377] cxx: example/ccnx/dce-ccnd-udp-2-nodes.cc -> build/example/ccnx/dce-ccnd-udp-2-nodes.cc.86.o
+[223/377] cxx: example/ccnx/misc-tools.cc -> build/example/ccnx/misc-tools.cc.86.o
+[224/377] cxx: example/ccnx/dce-ccnd-linear-multiple.cc -> build/example/ccnx/dce-ccnd-linear-multiple.cc.87.o
+[225/377] cxx: example/ccnx/misc-tools.cc -> build/example/ccnx/misc-tools.cc.87.o
+[226/377] cxx: example/dce-xfrm.cc -> build/example/dce-xfrm.cc.88.o
+[227/377] cxx: example/dce-ltp.cc -> build/example/dce-ltp.cc.89.o
+[228/377] cxx: example/dce-iperf-mptcp.cc -> build/example/dce-iperf-mptcp.cc.90.o
+[229/377] cxx: example/dce-iperf-heterogeneous-multihop.cc -> build/example/dce-iperf-heterogeneous-multihop.cc.91.o
+[230/377] cxx: example/dce-cradle-mptcp.cc -> build/example/dce-cradle-mptcp.cc.92.o
+[231/377] cxx: example/dce-mptcp-lte-wifi.cc -> build/example/dce-mptcp-lte-wifi.cc.93.o
+[232/377] cxx: example/dce-cradle-simple.cc -> build/example/dce-cradle-simple.cc.94.o
+[233/377] cxx: example/dce-tcp-ns3-nsc-comparison.cc -> build/example/dce-tcp-ns3-nsc-comparison.cc.95.o
+[234/377] cxx: example/dce-httpd.cc -> build/example/dce-httpd.cc.96.o
+[235/377] cxx: example/ccnx/dce-wifi-ccnx.cc -> build/example/ccnx/dce-wifi-ccnx.cc.97.o
+../example/dce-linux.cc: In function ‘int main(int, char**)’:
+../example/dce-linux.cc:90:48: warning: ‘static ns3::WifiHelper ns3::WifiHelper::Default()’ is deprecated (declared at /home/samettonyali/Desktop/dce/build/include/ns3-dev/ns3/wifi-helper.h:239) [-Wdeprecated-declarations]
+         WifiHelper wifi = WifiHelper::Default ();
+                                                ^
+[236/377] cxx: example/dce-freebsd.cc -> build/example/dce-freebsd.cc.98.o
+[237/377] cxx: utils/test-runner.cc -> build/utils/test-runner.cc.99.o
+[238/377] cxx: utils/test-runner.cc -> build/utils/test-runner.cc.100.o
+[239/377] cxxshlib: build/netlink/netlink-socket.cc.1.o build/netlink/netlink-socket-address.cc.1.o build/netlink/netlink-socket-factory.cc.1.o build/netlink/netlink-attribute.cc.1.o build/netlink/netlink-message.cc.1.o build/netlink/netlink-message-route.cc.1.o -> build/lib/libns3-netlink.so
+[240/377] cprogram: build/myscripts/sleep/tenseconds.c.1.o -> build/bin_dce/tenseconds
+[241/377] cxxshlib: build/myscripts/loaders-test/mylib.cc.4.o -> build/lib/libmylib.so
+[242/377] cprogram: build/myscripts/mt2/mcsend.c.3.o -> build/bin_dce/mcsend
+[243/377] cprogram: build/myscripts/mt2/mcreceive.c.2.o -> build/bin_dce/mcreceive
+[244/377] cprogram: build/myscripts/ccn-common/my-client.c.1.o -> build/bin_dce/my-client
+[245/377] cprogram: build/myscripts/ccn-common/my-serveur.c.2.o -> build/bin_dce/my-serveur
+[246/377] cprogram: build/myscripts/ccn-common/lanceur.c.3.o -> build/bin_dce/lanceur
+[247/377] cxxprogram: build/myscripts/ccn-common/bug1167.cc.4.o -> build/bin_dce/bug1167
+[248/377] cxxshlib: build/test/test-macros.cc.13.o -> build/lib/libtest.so
+[249/377] cxxprogram: build/example/udp-perf.cc.56.o -> build/bin_dce/udp-perf
+[250/377] cxxprogram: build/example/udp-client.cc.55.o -> build/bin_dce/udp-client
+[251/377] cxxprogram: build/example/udp-server.cc.54.o -> build/bin_dce/udp-server
+[252/377] cxxprogram: build/example/tcp-server.cc.57.o -> build/bin_dce/tcp-server
+[253/377] cxxprogram: build/example/tcp-client.cc.58.o -> build/bin_dce/tcp-client
+[254/377] cxxprogram: build/example/freebsd-iproute.cc.66.o -> build/bin_dce/freebsd-iproute
+[255/377] cxxprogram: build/example/tcp-loopback.cc.59.o -> build/bin_dce/tcp-loopback
+[256/377] cxxprogram: build/example/unix-client.cc.61.o -> build/bin_dce/unix-client
+[257/377] cxxprogram: build/example/unix-server.cc.60.o -> build/bin_dce/unix-server
+[258/377] cxxprogram: build/example/dccp-client.cc.65.o -> build/bin_dce/dccp-client
+[259/377] cxxprogram: build/example/udp-echo-server.cc.62.o -> build/bin_dce/udp-echo-server
+[260/377] cxxprogram: build/example/dccp-server.cc.64.o -> build/bin_dce/dccp-server
+[261/377] cxxprogram: build/example/udp-echo-client.cc.63.o -> build/bin_dce/udp-echo-client
+[262/377] cxxprogram: build/myscripts/loaders-test/mytest.cc.3.o -> build/bin_dce/mytest
+[263/377] cxxprogram: build/test/test-fork.cc.36.o -> build/bin_dce/test-fork
+[264/377] cxxprogram: build/test/test-gcc-builtin-apply.cc.53.o -> build/bin_dce/test-gcc-builtin-apply
+[265/377] cxxprogram: build/test/test-raw-socket.cc.42.o -> build/bin_dce/test-raw-socket
+[266/377] cxxprogram: build/test/test-malloc.cc.22.o -> build/bin_dce/test-malloc
+[267/377] cxxprogram: build/test/test-empty.cc.14.o -> build/bin_dce/test-empty
+[268/377] cxxprogram: build/test/test-select.cc.33.o -> build/bin_dce/test-select
+[269/377] cxxprogram: build/test/test-once.cc.19.o -> build/bin_dce/test-once
+[270/377] cxxprogram: build/test/test-clock-gettime.cc.52.o -> build/bin_dce/test-clock-gettime
+[271/377] cxxprogram: build/test/test-pthread.cc.17.o -> build/bin_dce/test-pthread
+[272/377] cxxprogram: build/test/test-local-socket.cc.37.o -> build/bin_dce/test-local-socket
+[273/377] cxxprogram: build/test/test-string.cc.27.o -> build/bin_dce/test-string
+[274/377] cxxprogram: build/test/test-bug-multi-select.cc.49.o -> build/bin_dce/test-bug-multi-select
+[275/377] cxxprogram: build/test/test-strerror.cc.25.o -> build/bin_dce/test-strerror
+[276/377] cxxprogram: build/test/test-dirent.cc.47.o -> build/bin_dce/test-dirent
+[277/377] cxxprogram: build/test/test-sem.cc.21.o -> build/bin_dce/test-sem
+[278/377] cxxprogram: build/test/test-malloc-2.cc.23.o -> build/bin_dce/test-malloc-2
+[279/377] cxxprogram: build/test/test-ioctl.cc.35.o -> build/bin_dce/test-ioctl
+[280/377] cxxprogram: build/test/test-nanosleep.cc.16.o -> build/bin_dce/test-nanosleep
+[281/377] cxxprogram: build/test/test-fd-simple.cc.24.o -> build/bin_dce/test-fd-simple
+[282/377] cxxprogram: build/test/test-random.cc.34.o -> build/bin_dce/test-random
+[283/377] cxxprogram: build/test/test-socket.cc.48.o -> build/bin_dce/test-socket
+[284/377] cxxprogram: build/test/test-signal.cc.51.o -> build/bin_dce/test-signal
+[285/377] cxxprogram: build/test/test-netdb.cc.28.o -> build/bin_dce/test-netdb
+[286/377] cxxprogram: build/test/test-stdio.cc.26.o -> build/bin_dce/test-stdio
+[287/377] cxxprogram: build/test/test-stdlib.cc.32.o -> build/bin_dce/test-stdlib
+test/test-fd-simple.cc.24.o: In function `test_cwd':
+/home/samettonyali/Desktop/dce/source/ns-3-dce/build/../test/test-fd-simple.cc:320: warning: the `getwd' function is dangerous and should not be used.
+[288/377] cxxprogram: build/test/test-exec-target-1.cc.41.o -> build/bin_dce/test-exec-target-1
+[289/377] cxxprogram: build/test/test-env.cc.29.o -> build/bin_dce/test-env
+[290/377] cxxprogram: build/test/test-mutex.cc.18.o -> build/bin_dce/test-mutex
+[291/377] cxxprogram: build/test/test-name.cc.45.o -> build/bin_dce/test-name
+[293/377] cxxprogram: build/test/test-sleep.cc.15.o -> build/bin_dce/test-sleep
+[293/377] cxxprogram: build/test/test-exec.cc.40.o -> build/bin_dce/test-exec
+[294/377] cxxprogram: build/test/test-tcp-socket.cc.39.o -> build/bin_dce/test-tcp-socket
+[295/377] cxxprogram: build/test/test-pipe.cc.46.o -> build/bin_dce/test-pipe
+[296/377] cxxprogram: build/test/test-pthread-key.cc.20.o -> build/bin_dce/test-pthread-key
+[297/377] cxxprogram: build/test/test-tsearch.cc.50.o -> build/bin_dce/test-tsearch
+[298/377] cxxprogram: build/test/test-fork-fd.cc.43.o -> build/bin_dce/test-fork-fd
+[299/377] cxxprogram: build/test/test-timer-fd.cc.31.o -> build/bin_dce/test-timer-fd
+[300/377] cxxprogram: build/test/test-cond.cc.30.o -> build/bin_dce/test-cond
+[301/377] cxxprogram: build/test/test-poll.cc.38.o -> build/bin_dce/test-poll
+[302/377] cxxprogram: build/test/test-iperf.cc.44.o -> build/bin_dce/test-iperf
+[303/377] cxxshlib: build/model/dce-manager.cc.6.o build/model/dce-application.cc.6.o build/model/dce.cc.6.o build/model/dce-signal.cc.6.o build/model/libc-dce.cc.6.o build/model/utils.cc.6.o build/model/unix-fd.cc.6.o build/model/unix-file-fd.cc.6.o build/model/unix-socket-fd.cc.6.o build/model/unix-datagram-socket-fd.cc.6.o build/model/unix-stream-socket-fd.cc.6.o build/model/unix-timer-fd.cc.6.o build/model/dce-fd.cc.6.o build/model/dce-stdio.cc.6.o build/model/dce-pthread.cc.6.o build/model/dce-stdlib.cc.6.o build/model/dce-debug.cc.6.o build/model/dce-semaphore.cc.6.o build/model/dce-pthread-mutex.cc.6.o build/model/dce-cxa.cc.6.o build/model/dce-netdb.cc.6.o build/model/dce-string.cc.6.o build/model/dce-env.cc.6.o build/model/dce-pthread-cond.cc.6.o build/model/dce-timerfd.cc.6.o build/model/dce-time.cc.6.o build/model/dce-stat.cc.6.o build/model/dce-syslog.cc.6.o build/model/dce-dl.cc.6.o build/model/dce-global-variables.cc.6.o build/model/cmsg.cc.6.o build/model/waiter.cc.6.o build/model/kingsley-alloc.cc.6.o build/model/dce-alloc.cc.6.o build/model/fiber-manager.cc.6.o build/model/ucontext-fiber-manager.cc.6.o build/model/pthread-fiber-manager.cc.6.o build/model/task-manager.cc.6.o build/model/task-scheduler.cc.6.o build/model/rr-task-scheduler.cc.6.o build/model/loader-factory.cc.6.o build/model/elf-dependencies.cc.6.o build/model/elf-cache.cc.6.o build/model/cooja-loader-factory.cc.6.o build/model/dlm-loader-factory.cc.6.o build/model/socket-fd-factory.cc.6.o build/model/ns3-socket-fd-factory.cc.6.o build/model/local-socket-fd.cc.6.o build/model/local-stream-socket-fd.cc.6.o build/model/local-datagram-socket-fd.cc.6.o build/model/local-socket-fd-factory.cc.6.o build/model/dce-umask.cc.6.o build/model/dce-misc.cc.6.o build/model/dce-node-context.cc.6.o build/model/dce-wait.cc.6.o build/model/wait-queue.cc.6.o build/model/file-usage.cc.6.o build/model/dce-poll.cc.6.o build/model/ipv4-dce-routing.cc.6.o build/model/dce-credentials.cc.6.o build/model/dce-pwd.cc.6.o build/model/pipe-fd.cc.6.o build/model/fifo-buffer.cc.6.o build/model/dce-dirent.cc.6.o build/model/dce-at.cc.6.o build/model/exec-utils.cc.6.o build/model/linux/ipv4-linux.cc.6.o build/model/linux/ipv6-linux.cc.6.o build/model/freebsd/ipv4-freebsd.cc.6.o build/model/dce-vfs.cc.6.o build/model/elf-ldd.cc.6.o build/model/dce-termio.cc.6.o build/model/process-delay-model.cc.6.o build/model/linux/linux-ipv4-raw-socket-factory.cc.6.o build/model/linux/linux-ipv4-raw-socket-factory-impl.cc.6.o build/model/linux/linux-ipv6-raw-socket-factory.cc.6.o build/model/linux/linux-ipv6-raw-socket-factory-impl.cc.6.o build/model/linux/linux-udp-socket-factory.cc.6.o build/model/linux/linux-udp-socket-factory-impl.cc.6.o build/model/linux/linux-udp6-socket-factory.cc.6.o build/model/linux/linux-udp6-socket-factory-impl.cc.6.o build/model/linux/linux-tcp-socket-factory.cc.6.o build/model/linux/linux-tcp-socket-factory-impl.cc.6.o build/model/linux/linux-tcp6-socket-factory.cc.6.o build/model/linux/linux-tcp6-socket-factory-impl.cc.6.o build/model/linux/linux-dccp-socket-factory.cc.6.o build/model/linux/linux-dccp-socket-factory-impl.cc.6.o build/model/linux/linux-dccp6-socket-factory.cc.6.o build/model/linux/linux-dccp6-socket-factory-impl.cc.6.o build/model/linux/linux-sctp-socket-factory.cc.6.o build/model/linux/linux-sctp-socket-factory-impl.cc.6.o build/model/linux/linux-sctp6-socket-factory.cc.6.o build/model/linux/linux-sctp6-socket-factory-impl.cc.6.o build/helper/ipv4-dce-routing-helper.cc.6.o build/helper/dce-manager-helper.cc.6.o build/helper/dce-application-helper.cc.6.o build/helper/ccn-client-helper.cc.6.o build/helper/linux-stack-helper.cc.6.o build/helper/freebsd-stack-helper.cc.6.o build/model/kernel-socket-fd-factory.cc.6.o build/model/kernel-socket-fd.cc.6.o build/model/linux-socket-fd-factory.cc.6.o build/model/freebsd-socket-fd-factory.cc.6.o build/model/linux/linux-socket-impl.cc.6.o -> build/lib/libns3-dce.so
+../example/ccnx/dce-wifi-ccnx.cc: In member function ‘void ManetCcnx::ConfigureTopology()’:
+../example/ccnx/dce-wifi-ccnx.cc:356:42: warning: ‘static ns3::WifiHelper ns3::WifiHelper::Default()’ is deprecated (declared at /home/samettonyali/Desktop/dce/build/include/ns3-dev/ns3/wifi-helper.h:239) [-Wdeprecated-declarations]
+   WifiHelper wifi = WifiHelper::Default ();
+                                          ^
+../example/dce-freebsd.cc: In function ‘int main(int, char**)’:
+../example/dce-freebsd.cc:88:48: warning: ‘static ns3::WifiHelper ns3::WifiHelper::Default()’ is deprecated (declared at /home/samettonyali/Desktop/dce/build/include/ns3-dev/ns3/wifi-helper.h:239) [-Wdeprecated-declarations]
+         WifiHelper wifi = WifiHelper::Default ();
+                                                ^
+../example/dce-mptcp-lte-wifi.cc: In function ‘int main(int, char**)’:
+../example/dce-mptcp-lte-wifi.cc:163:46: warning: ‘static ns3::WifiHelper ns3::WifiHelper::Default()’ is deprecated (declared at /home/samettonyali/Desktop/dce/build/include/ns3-dev/ns3/wifi-helper.h:239) [-Wdeprecated-declarations]
+       WifiHelper wifi = WifiHelper::Default ();
+                                              ^
+[306/377] cxxprogram: build/example/dce-dccp.cc.85.o -> build/bin/dce-dccp
+[307/377] cxxprogram: build/example/dce-iperf-emulation.cc.77.o build/example/ccnx/misc-tools.cc.77.o -> build/bin/dce-iperf-emulation
+[307/377] cxxprogram: build/example/dce-cradle-mptcp.cc.92.o -> build/bin/dce-cradle-mptcp
+[307/377] cxxprogram: build/example/dce-linux-simple.cc.83.o -> build/bin/dce-linux-simple
+[310/377] cxxprogram: build/example/dce-httpd.cc.96.o -> build/bin/dce-httpd
+[310/377] cxxprogram: build/myscripts/ccn-tap-vlc/dce-ccn-vlc.cc.1.o -> build/myscripts/ccn-tap-vlc/bin/dce-ccn-vlc
+[311/377] cxxprogram: build/myscripts/coap/dce-coap.cc.1.o -> build/myscripts/coap/bin/dce-coap
+[313/377] cxxprogram: build/example/dce-debug-aspect.cc.79.o -> build/bin/dce-debug-aspect
+[313/377] cxxprogram: build/example/dce-iperf.cc.76.o build/example/ccnx/misc-tools.cc.76.o -> build/bin/dce-iperf
+[316/377] cxxprogram: build/myscripts/loaders-test/dce-twin.cc.1.o -> build/myscripts/loaders-test/bin/dce-twin
+[316/377] cxxprogram: build/myscripts/mt2/dce-mt2.cc.1.o -> build/myscripts/mt2/bin/dce-mt2
+[316/377] cxxprogram: build/example/bash/dce-bash-simple.cc.74.o -> build/bin/dce-bash-simple
+[317/377] cxxprogram: build/myscripts/btorrent1/dce-bt1.cc.1.o -> build/myscripts/btorrent1/bin/dce-bt1
+[317/377] cxxprogram: build/example/ccnx/dce-ccnd-short-stuff.cc.70.o -> build/bin/dce-ccnd-short-stuff
+[318/377] cxxshlib: build/test/netlink-socket-test.cc.80.o -> build/lib/libns3-dce-test-netlink.so
+[319/377] cxxprogram: build/example/dce-iperf-heterogeneous-multihop.cc.91.o -> build/bin/dce-iperf-heterogeneous-multihop
+[320/377] cxxprogram: build/myscripts/tuto1/dce-tuto1.cc.1.o -> build/myscripts/tuto1/bin/dce-tuto1
+[321/377] cxxprogram: build/example/ccnx/dce-tap-vlc.cc.73.o -> build/bin/dce-tap-vlc
+[322/377] cxxprogram: build/myscripts/loaders-test/dce-twin.cc.2.o -> build/myscripts/loaders-test/bin/vdl-dce-twin
+[323/377] cxxprogram: build/example/dce-xfrm.cc.88.o -> build/bin/dce-xfrm
+[324/377] cxxprogram: build/myscripts/ccn-mt1/ccn-mt1.cc.1.o -> build/myscripts/ccn-mt1/bin/dce-ccn-mt1
+[325/377] cxxprogram: build/myscripts/ccn-exp1/dce-ccn-exp1.cc.1.o -> build/myscripts/ccn-exp1/bin/dce-ccn-exp1
+[326/377] cxxprogram: build/myscripts/sleep/dce-sleep.cc.2.o -> build/myscripts/sleep/bin/dce-sleep
+[327/377] cxxprogram: build/example/ccnx/dce-tap-ccnd.cc.72.o -> build/bin/dce-tap-ccnd
+[328/377] cxxprogram: build/example/dce-iperf-mptcp.cc.90.o -> build/bin/dce-iperf-mptcp
+[329/377] cxxprogram: build/example/linear-udp-perf.cc.78.o -> build/bin/linear-udp-perf
+[330/377] cxxprogram: build/example/dce-tcp-ns3-nsc-comparison.cc.95.o -> build/bin/dce-tcp-ns3-nsc-comparison
+[331/377] cxxprogram: build/example/ccnx/dce-tap-udp-echo.cc.71.o -> build/bin/dce-tap-udp-echo
+[332/377] cxxprogram: build/example/dce-cradle-simple.cc.94.o -> build/bin/dce-cradle-simple
+[333/377] cxxprogram: build/example/dce-tcp-simple.cc.67.o -> build/bin/dce-tcp-simple
+[334/377] cxxprogram: build/example/dce-udp-perf.cc.82.o -> build/bin/dce-udp-perf
+[335/377] cxxprogram: build/myscripts/tuto2/dce-tuto2.cc.1.o -> build/myscripts/tuto2/bin/dce-tuto2
+[336/377] cxxprogram: build/example/dce-linux.cc.84.o -> build/bin/dce-linux
+[337/377] cxxprogram: build/myscripts/ping-mt1/ping-mt1.cc.1.o -> build/myscripts/ping-mt1/bin/dce-ping-mt1
+[338/377] cxxprogram: build/example/ccnx/dce-ccn-cache.cc.75.o build/example/ccnx/misc-tools.cc.75.o -> build/bin/dce-ccn-cache
+[339/377] cxxprogram: build/myscripts/ping/dce-ping.cc.1.o build/myscripts/ping/misc-tools.cc.1.o -> build/myscripts/ping/bin/dce-ping
+[340/377] cxxprogram: build/myscripts/mt3/dce-mt3.cc.1.o -> build/myscripts/mt3/bin/dce-mt3
+[341/377] cxxprogram: build/example/ccnx/dce-ccnd-simple.cc.69.o -> build/bin/dce-ccnd-simple
+[342/377] cxxshlib: build/test/dce-manager-test.cc.11.o build/test/dce-cradle-test.cc.11.o build/test/dce-mptcp-test.cc.11.o build/test/addons/dce-linux-ip6-test.cc.11.o -> build/lib/libns3-dce-test.so
+[343/377] cxxprogram: build/example/ccnx/dce-ccnd-linear-multiple.cc.87.o build/example/ccnx/misc-tools.cc.87.o -> build/bin/dce-ccnd-linear-multiple
+[344/377] cxxprogram: build/example/dce-ltp.cc.89.o -> build/bin/dce-ltp
+[345/377] cxxprogram: build/example/ccnx/dce-ccnd-udp-2-nodes.cc.86.o build/example/ccnx/misc-tools.cc.86.o -> build/bin/dce-ccnd-udp-2-nodes
+[346/377] cxxprogram: build/myscripts/dce-emu-ping/dce-emu-ping.cc.1.o build/myscripts/dce-emu-ping/misc-tools.cc.1.o -> build/myscripts/dce-emu-ping/bin/dce-emu-ping
+[347/377] cxxprogram: build/myscripts/tuto3/dce-tuto3.cc.1.o -> build/myscripts/tuto3/bin/dce-tuto3
+[348/377] cxxprogram: build/myscripts/iperf-multi/dce-iperf-multi.cc.1.o -> build/myscripts/iperf-multi/bin/dce-iperf-multi
+[349/377] cxxprogram: build/example/dce-udp-simple.cc.68.o -> build/bin/dce-udp-simple
+[350/377] cxxprogram: build/example/dce-freebsd.cc.98.o -> build/bin/dce-freebsd
+[351/377] cxxprogram: build/example/ccnx/dce-wifi-ccnx.cc.97.o -> build/bin/dce-wifi-ccnx
+[352/377] cxxprogram: build/example/dce-mptcp-lte-wifi.cc.93.o -> build/bin/dce-mptcp-lte-wifi
+[353/377] cxxprogram: build/utils/test-runner.cc.100.o -> build/bin/test-runner-vdl
+[354/377] cxxprogram: build/utils/test-runner.cc.99.o -> build/bin/test-runner
+[355/377] c: utils/dcemakeversion.c -> build/utils/dcemakeversion.c.101.o
+[356/377] cprogram: build/utils/dcemakeversion.c.101.o -> build/dcemakeversion
+[357/377] model/libc.version,model/libpthread.version,model/librt.version,model/libm.version,model/libdl.version: build/dcemakeversion model/libc-ns3.version model/libpthread-ns3.version model/librt-ns3.version model/libm-ns3.version model/libdl-ns3.version -> build/model/libc.version build/model/libpthread.version build/model/librt.version build/model/libm.version build/model/libdl.version
+[358/377] cxx: model/libc.cc -> build/model/libc.cc.103.o
+[359/377] cxx: model/libc-setup.cc -> build/model/libc-setup.cc.103.o
+[360/377] cxx: model/libc-global-variables.cc -> build/model/libc-global-variables.cc.103.o
+[361/377] cxx: model/libc.cc -> build/model/libc.cc.104.o
+[362/377] cxx: model/libc-setup.cc -> build/model/libc-setup.cc.104.o
+[366/377] cxx: model/libc.cc -> build/model/libc.cc.105.o
+[366/377] cxx: model/libc-setup.cc -> build/model/libc-setup.cc.105.o
+[366/377] cxx: model/libc.cc -> build/model/libc.cc.106.o
+[366/377] cxx: model/libc-setup.cc -> build/model/libc-setup.cc.106.o
+[367/377] cxx: model/libc.cc -> build/model/libc.cc.107.o
+[368/377] cxx: model/libc-setup.cc -> build/model/libc-setup.cc.107.o
+[369/377] c: utils/dce-runner.c -> build/utils/dce-runner.c.1.o
+[370/377] cxx: bindings/python/ns3_module_dce.cpp -> build/bindings/python/ns3_module_dce.cpp.1.o
+[371/377] cprogram: build/utils/dce-runner.c.1.o -> build/bin/dce-runner
+[372/377] cxxshlib: build/model/libc.cc.107.o build/model/libc-setup.cc.107.o -> build/lib/libdl-ns3.so
+[373/377] cxxshlib: build/model/libc.cc.104.o build/model/libc-setup.cc.104.o -> build/lib/libpthread-ns3.so
+[374/377] cxxshlib: build/model/libc.cc.103.o build/model/libc-setup.cc.103.o build/model/libc-global-variables.cc.103.o -> build/lib/libc-ns3.so
+[375/377] cxxshlib: build/bindings/python/ns3_module_dce.cpp.1.o -> build/bindings/python/ns/dce.so
+[377/377] cxxshlib: build/model/libc.cc.105.o build/model/libc-setup.cc.105.o -> build/lib/librt-ns3.so
+[377/377] cxxshlib: build/model/libc.cc.106.o build/model/libc-setup.cc.106.o -> build/lib/libm-ns3.so
+Waf: Leaving directory `/home/samettonyali/Desktop/dce/source/ns-3-dce/build'
+'build' finished successfully (23.694s)

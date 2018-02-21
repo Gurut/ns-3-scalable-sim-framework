@@ -1,0 +1,13 @@
+./autogen.sh
+./configure --enable-examples CFLAGS="-fPIC -pie -rdynamic -U_FORTIFY_SOURCE"
+make
+make check
+sudo make install
+sudo make installcheck
+
+into .bashrc file, add this: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+restart the terminal
+
+A detailed explanation here:
+
+https://groups.google.com/forum/#!searchin/ns-3-users/libcoap%7Csort:relevance/ns-3-users/t4dH9teYiIQ/bnyfwTYdDwAJ

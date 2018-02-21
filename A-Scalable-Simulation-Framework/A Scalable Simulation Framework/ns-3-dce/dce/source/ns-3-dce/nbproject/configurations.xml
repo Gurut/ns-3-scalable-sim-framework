@@ -1,0 +1,4590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bindings">
+        <df name="python">
+          <in>ns3_module_dce.cpp</in>
+        </df>
+      </df>
+      <df name="example">
+        <df name="bash">
+          <in>dce-bash-simple.cc</in>
+        </df>
+        <df name="ccnx">
+          <in>dce-ccn-cache.cc</in>
+          <in>dce-ccnd-linear-multiple.cc</in>
+          <in>dce-ccnd-short-stuff.cc</in>
+          <in>dce-ccnd-simple.cc</in>
+          <in>dce-ccnd-udp-2-nodes.cc</in>
+          <in>dce-tap-ccnd.cc</in>
+          <in>dce-tap-udp-echo.cc</in>
+          <in>dce-tap-vlc.cc</in>
+          <in>dce-wifi-ccnx.cc</in>
+          <in>misc-tools.cc</in>
+        </df>
+        <in>dccp-client.cc</in>
+        <in>dccp-server.cc</in>
+        <in>dce-cradle-mptcp.cc</in>
+        <in>dce-cradle-simple.cc</in>
+        <in>dce-dccp.cc</in>
+        <in>dce-debug-aspect.cc</in>
+        <in>dce-freebsd.cc</in>
+        <in>dce-httpd.cc</in>
+        <in>dce-iperf-emulation.cc</in>
+        <in>dce-iperf-heterogeneous-multihop.cc</in>
+        <in>dce-iperf-mptcp.cc</in>
+        <in>dce-iperf.cc</in>
+        <in>dce-linux-simple.cc</in>
+        <in>dce-linux.cc</in>
+        <in>dce-ltp.cc</in>
+        <in>dce-mptcp-lte-wifi.cc</in>
+        <in>dce-sctp-simple.cc</in>
+        <in>dce-tcp-ns3-nsc-comparison.cc</in>
+        <in>dce-tcp-simple.cc</in>
+        <in>dce-udp-perf.cc</in>
+        <in>dce-udp-simple.cc</in>
+        <in>dce-xfrm.cc</in>
+        <in>freebsd-iproute.cc</in>
+        <in>linear-udp-perf.cc</in>
+        <in>sctp-client.cc</in>
+        <in>sctp-server.cc</in>
+        <in>tcp-client.cc</in>
+        <in>tcp-loopback.cc</in>
+        <in>tcp-server.cc</in>
+        <in>udp-client.cc</in>
+        <in>udp-echo-client.cc</in>
+        <in>udp-echo-server.cc</in>
+        <in>udp-perf.cc</in>
+        <in>udp-server.cc</in>
+        <in>unix-client.cc</in>
+        <in>unix-server.cc</in>
+      </df>
+      <df name="helper">
+        <in>ccn-client-helper.cc</in>
+        <in>dce-application-helper.cc</in>
+        <in>dce-manager-helper.cc</in>
+        <in>freebsd-stack-helper.cc</in>
+        <in>ipv4-dce-routing-helper.cc</in>
+        <in>linux-stack-helper.cc</in>
+      </df>
+      <df name="model">
+        <df name="freebsd">
+          <in>ipv4-freebsd.cc</in>
+        </df>
+        <df name="linux">
+          <in>ipv4-linux.cc</in>
+          <in>ipv6-linux.cc</in>
+          <in>linux-dccp-socket-factory-impl.cc</in>
+          <in>linux-dccp-socket-factory.cc</in>
+          <in>linux-dccp6-socket-factory-impl.cc</in>
+          <in>linux-dccp6-socket-factory.cc</in>
+          <in>linux-ipv4-raw-socket-factory-impl.cc</in>
+          <in>linux-ipv4-raw-socket-factory.cc</in>
+          <in>linux-ipv6-raw-socket-factory-impl.cc</in>
+          <in>linux-ipv6-raw-socket-factory.cc</in>
+          <in>linux-sctp-socket-factory-impl.cc</in>
+          <in>linux-sctp-socket-factory.cc</in>
+          <in>linux-sctp6-socket-factory-impl.cc</in>
+          <in>linux-sctp6-socket-factory.cc</in>
+          <in>linux-socket-impl.cc</in>
+          <in>linux-tcp-socket-factory-impl.cc</in>
+          <in>linux-tcp-socket-factory.cc</in>
+          <in>linux-tcp6-socket-factory-impl.cc</in>
+          <in>linux-tcp6-socket-factory.cc</in>
+          <in>linux-udp-socket-factory-impl.cc</in>
+          <in>linux-udp-socket-factory.cc</in>
+          <in>linux-udp6-socket-factory-impl.cc</in>
+          <in>linux-udp6-socket-factory.cc</in>
+        </df>
+        <in>cmsg.cc</in>
+        <in>cooja-loader-factory.cc</in>
+        <in>dce-alloc.cc</in>
+        <in>dce-application.cc</in>
+        <in>dce-at.cc</in>
+        <in>dce-credentials.cc</in>
+        <in>dce-cxa.cc</in>
+        <in>dce-debug.cc</in>
+        <in>dce-dirent.cc</in>
+        <in>dce-dl.cc</in>
+        <in>dce-env.cc</in>
+        <in>dce-fd.cc</in>
+        <in>dce-global-variables.cc</in>
+        <in>dce-manager.cc</in>
+        <in>dce-misc.cc</in>
+        <in>dce-netdb.cc</in>
+        <in>dce-node-context.cc</in>
+        <in>dce-poll.cc</in>
+        <in>dce-pthread-cond.cc</in>
+        <in>dce-pthread-mutex.cc</in>
+        <in>dce-pthread.cc</in>
+        <in>dce-pwd.cc</in>
+        <in>dce-semaphore.cc</in>
+        <in>dce-signal.cc</in>
+        <in>dce-stat.cc</in>
+        <in>dce-stdio.cc</in>
+        <in>dce-stdlib.cc</in>
+        <in>dce-string.cc</in>
+        <in>dce-syslog.cc</in>
+        <in>dce-termio.cc</in>
+        <in>dce-time.cc</in>
+        <in>dce-timerfd.cc</in>
+        <in>dce-umask.cc</in>
+        <in>dce-vfs.cc</in>
+        <in>dce-wait.cc</in>
+        <in>dce.cc</in>
+        <in>dlm-loader-factory.cc</in>
+        <in>elf-cache.cc</in>
+        <in>elf-dependencies.cc</in>
+        <in>elf-ldd.cc</in>
+        <in>exec-utils.cc</in>
+        <in>fiber-manager.cc</in>
+        <in>fifo-buffer.cc</in>
+        <in>file-usage.cc</in>
+        <in>freebsd-socket-fd-factory.cc</in>
+        <in>ipv4-dce-routing.cc</in>
+        <in>kernel-socket-fd-factory.cc</in>
+        <in>kernel-socket-fd.cc</in>
+        <in>kingsley-alloc.cc</in>
+        <in>libc-dce.cc</in>
+        <in>libc-global-variables.cc</in>
+        <in>libc-setup.cc</in>
+        <in>libc.cc</in>
+        <in>linux-socket-fd-factory.cc</in>
+        <in>loader-factory.cc</in>
+        <in>local-datagram-socket-fd.cc</in>
+        <in>local-socket-fd-factory.cc</in>
+        <in>local-socket-fd.cc</in>
+        <in>local-stream-socket-fd.cc</in>
+        <in>ns3-socket-fd-factory.cc</in>
+        <in>pipe-fd.cc</in>
+        <in>process-delay-model.cc</in>
+        <in>pthread-fiber-manager.cc</in>
+        <in>rr-task-scheduler.cc</in>
+        <in>socket-fd-factory.cc</in>
+        <in>task-manager.cc</in>
+        <in>task-scheduler.cc</in>
+        <in>ucontext-fiber-manager.cc</in>
+        <in>unix-datagram-socket-fd.cc</in>
+        <in>unix-fd.cc</in>
+        <in>unix-file-fd.cc</in>
+        <in>unix-socket-fd.cc</in>
+        <in>unix-stream-socket-fd.cc</in>
+        <in>unix-timer-fd.cc</in>
+        <in>utils.cc</in>
+        <in>wait-queue.cc</in>
+        <in>waiter.cc</in>
+      </df>
+      <df name="myscripts">
+        <df name="btorrent1">
+          <in>dce-bt1.cc</in>
+        </df>
+        <df name="ccn-common">
+          <in>bug1167.cc</in>
+          <in>lanceur.c</in>
+          <in>my-client.c</in>
+          <in>my-serveur.c</in>
+        </df>
+        <df name="ccn-exp1">
+          <in>dce-ccn-exp1.cc</in>
+        </df>
+        <df name="ccn-mt1">
+          <in>ccn-mt1.cc</in>
+        </df>
+        <df name="ccn-tap-vlc">
+          <in>dce-ccn-vlc.cc</in>
+        </df>
+        <df name="coap">
+          <in>dce-coap.cc</in>
+        </df>
+        <df name="dce-emu-ping">
+          <in>dce-emu-ping.cc</in>
+          <in>misc-tools.cc</in>
+        </df>
+        <df name="iperf-multi">
+          <in>dce-iperf-multi.cc</in>
+        </df>
+        <df name="loaders-test">
+          <in>dce-twin.cc</in>
+          <in>mylib.cc</in>
+          <in>mytest.cc</in>
+        </df>
+        <df name="mt2">
+          <in>dce-mt2.cc</in>
+          <in>mcreceive.c</in>
+          <in>mcsend.c</in>
+        </df>
+        <df name="mt3">
+          <in>dce-mt3.cc</in>
+        </df>
+        <df name="ping">
+          <in>dce-ping.cc</in>
+          <in>misc-tools.cc</in>
+        </df>
+        <df name="ping-mt1">
+          <in>ping-mt1.cc</in>
+        </df>
+        <df name="sleep">
+          <in>dce-sleep.cc</in>
+          <in>tenseconds.c</in>
+        </df>
+        <df name="tuto1">
+          <in>dce-tuto1.cc</in>
+        </df>
+        <df name="tuto2">
+          <in>dce-tuto2.cc</in>
+        </df>
+        <df name="tuto3">
+          <in>dce-tuto3.cc</in>
+        </df>
+      </df>
+      <df name="netlink">
+        <in>netlink-attribute.cc</in>
+        <in>netlink-message-route.cc</in>
+        <in>netlink-message.cc</in>
+        <in>netlink-socket-address.cc</in>
+        <in>netlink-socket-factory.cc</in>
+        <in>netlink-socket.cc</in>
+      </df>
+      <df name="test">
+        <df name="addons">
+          <in>dce-linux-ip6-test.cc</in>
+        </df>
+        <in>dce-cradle-test.cc</in>
+        <in>dce-manager-test.cc</in>
+        <in>dce-mptcp-test.cc</in>
+        <in>netlink-socket-test.cc</in>
+        <in>test-bug-multi-select.cc</in>
+        <in>test-clock-gettime.cc</in>
+        <in>test-cond.cc</in>
+        <in>test-dirent.cc</in>
+        <in>test-empty.cc</in>
+        <in>test-env.cc</in>
+        <in>test-exec-target-1.cc</in>
+        <in>test-exec.cc</in>
+        <in>test-fd-simple.cc</in>
+        <in>test-fork-fd.cc</in>
+        <in>test-fork.cc</in>
+        <in>test-gcc-builtin-apply.cc</in>
+        <in>test-ioctl.cc</in>
+        <in>test-iperf.cc</in>
+        <in>test-local-socket.cc</in>
+        <in>test-macros.cc</in>
+        <in>test-malloc-2.cc</in>
+        <in>test-malloc.cc</in>
+        <in>test-mutex.cc</in>
+        <in>test-name.cc</in>
+        <in>test-nanosleep.cc</in>
+        <in>test-netdb.cc</in>
+        <in>test-once.cc</in>
+        <in>test-pipe.cc</in>
+        <in>test-poll.cc</in>
+        <in>test-pthread-key.cc</in>
+        <in>test-pthread.cc</in>
+        <in>test-random.cc</in>
+        <in>test-raw-socket.cc</in>
+        <in>test-select.cc</in>
+        <in>test-sem.cc</in>
+        <in>test-signal.cc</in>
+        <in>test-sleep.cc</in>
+        <in>test-socket.cc</in>
+        <in>test-stdio.cc</in>
+        <in>test-stdlib.cc</in>
+        <in>test-strerror.cc</in>
+        <in>test-string.cc</in>
+        <in>test-tcp-socket.cc</in>
+        <in>test-timer-fd.cc</in>
+        <in>test-tsearch.cc</in>
+      </df>
+      <df name="utils">
+        <in>dce-runner.c</in>
+        <in>dcemakeversion.c</in>
+        <in>test-runner.cc</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-fPIC"/>
+        <element flagsID="1"
+                 commonFlags="-fPIC -fPIC -fstack-protector -fstack-protector"/>
+        <element flagsID="2" commonFlags="-fpie"/>
+        <element flagsID="3" commonFlags="-g"/>
+        <element flagsID="4" commonFlags="-g -fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>build</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>HAVE_DIRENT_H=1</Elem>
+              <Elem>HAVE_GETCPUFEATURES=1</Elem>
+              <Elem>HAVE_HOOK_MANAGER_H=1</Elem>
+              <Elem>HAVE_INTTYPES_H=1</Elem>
+              <Elem>HAVE_NS3_APPLICATIONS=1</Elem>
+              <Elem>HAVE_NS3_CORE=1</Elem>
+              <Elem>HAVE_NS3_CSMA=1</Elem>
+              <Elem>HAVE_NS3_FD_NET_DEVICE=1</Elem>
+              <Elem>HAVE_NS3_FLOW_MONITOR=1</Elem>
+              <Elem>HAVE_NS3_INTERNET=1</Elem>
+              <Elem>HAVE_NS3_LTE=1</Elem>
+              <Elem>HAVE_NS3_MESH=1</Elem>
+              <Elem>HAVE_NS3_MOBILITY=1</Elem>
+              <Elem>HAVE_NS3_MPI=1</Elem>
+              <Elem>HAVE_NS3_NETANIM=1</Elem>
+              <Elem>HAVE_NS3_NETWORK=1</Elem>
+              <Elem>HAVE_NS3_POINT_TO_POINT=1</Elem>
+              <Elem>HAVE_NS3_POINT_TO_POINT_LAYOUT=1</Elem>
+              <Elem>HAVE_NS3_TAP_BRIDGE=1</Elem>
+              <Elem>HAVE_NS3_VISUALIZER=1</Elem>
+              <Elem>HAVE_NS3_WIFI=1</Elem>
+              <Elem>HAVE_PYTHON_H=1</Elem>
+              <Elem>HAVE_SCTP_H=1</Elem>
+              <Elem>HAVE_SIM_H=1</Elem>
+              <Elem>HAVE_STDINT_H=1</Elem>
+              <Elem>HAVE_SYS_STAT_H=1</Elem>
+              <Elem>HAVE_SYS_TYPES_H=1</Elem>
+              <Elem>KERNEL_STACK=Y</Elem>
+              <Elem>NS3_ASSERT_ENABLE</Elem>
+              <Elem>NS3_LOG_ENABLE</Elem>
+              <Elem>PYTHONARCHDIR="/home/samettonyali/Desktop/dce/build/lib/python2.7/site-packages"</Elem>
+              <Elem>PYTHONDIR="/home/samettonyali/Desktop/dce/build/lib/python2.7/site-packages"</Elem>
+            </preprocessorList>
+          </cTool>
+          <ccTool>
+            <preprocessorList>
+              <Elem>HAVE_DIRENT_H=1</Elem>
+              <Elem>HAVE_GETCPUFEATURES=1</Elem>
+              <Elem>HAVE_HOOK_MANAGER_H=1</Elem>
+              <Elem>HAVE_INTTYPES_H=1</Elem>
+              <Elem>HAVE_NS3_APPLICATIONS=1</Elem>
+              <Elem>HAVE_NS3_CORE=1</Elem>
+              <Elem>HAVE_NS3_CSMA=1</Elem>
+              <Elem>HAVE_NS3_FD_NET_DEVICE=1</Elem>
+              <Elem>HAVE_NS3_FLOW_MONITOR=1</Elem>
+              <Elem>HAVE_NS3_INTERNET=1</Elem>
+              <Elem>HAVE_NS3_LTE=1</Elem>
+              <Elem>HAVE_NS3_MESH=1</Elem>
+              <Elem>HAVE_NS3_MOBILITY=1</Elem>
+              <Elem>HAVE_NS3_MPI=1</Elem>
+              <Elem>HAVE_NS3_NETANIM=1</Elem>
+              <Elem>HAVE_NS3_NETWORK=1</Elem>
+              <Elem>HAVE_NS3_POINT_TO_POINT=1</Elem>
+              <Elem>HAVE_NS3_POINT_TO_POINT_LAYOUT=1</Elem>
+              <Elem>HAVE_NS3_TAP_BRIDGE=1</Elem>
+              <Elem>HAVE_NS3_VISUALIZER=1</Elem>
+              <Elem>HAVE_NS3_WIFI=1</Elem>
+              <Elem>HAVE_PYTHON_H=1</Elem>
+              <Elem>HAVE_SCTP_H=1</Elem>
+              <Elem>HAVE_SIM_H=1</Elem>
+              <Elem>HAVE_STDINT_H=1</Elem>
+              <Elem>HAVE_SYS_STAT_H=1</Elem>
+              <Elem>HAVE_SYS_TYPES_H=1</Elem>
+              <Elem>KERNEL_STACK=Y</Elem>
+              <Elem>NS3_ASSERT_ENABLE</Elem>
+              <Elem>NS3_LOG_ENABLE</Elem>
+              <Elem>PYTHONARCHDIR="/home/samettonyali/Desktop/dce/build/lib/python2.7/site-packages"</Elem>
+              <Elem>PYTHONDIR="/home/samettonyali/Desktop/dce/build/lib/python2.7/site-packages"</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="bindings/python/ns3_module_dce.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="example/bash/dce-bash-simple.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="example/ccnx/dce-ccn-cache.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/ccnx/dce-ccnd-linear-multiple.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/ccnx/dce-ccnd-short-stuff.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="example/ccnx/dce-ccnd-simple.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="example/ccnx/dce-ccnd-udp-2-nodes.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/ccnx/dce-tap-ccnd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="example/ccnx/dce-tap-udp-echo.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="example/ccnx/dce-tap-vlc.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="example/ccnx/dce-wifi-ccnx.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/ccnx/misc-tools.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dccp-client.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/dccp-server.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/dce-cradle-mptcp.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-cradle-simple.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-dccp.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-debug-aspect.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-freebsd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-httpd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-iperf-emulation.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-iperf-heterogeneous-multihop.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-iperf-mptcp.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-iperf.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-linux-simple.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-linux.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-ltp.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-mptcp-lte-wifi.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-sctp-simple.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-tcp-ns3-nsc-comparison.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-tcp-simple.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-udp-perf.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-udp-simple.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/dce-xfrm.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/freebsd-iproute.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/linear-udp-perf.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="example/sctp-client.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/sctp-server.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/tcp-client.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/tcp-loopback.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/tcp-server.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/udp-client.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/udp-echo-client.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/udp-echo-server.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/udp-perf.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/udp-server.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/unix-client.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="example/unix-server.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <folder path="0/bindings">
+        <ccTool>
+          <incDir>
+            <pElem>build/bindings/python</pElem>
+            <pElem>bindings/python</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build/include</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/python2.7</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/example/bash">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/example/ccnx">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/helper">
+        <ccTool>
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/model/freebsd">
+        <ccTool>
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/model/linux">
+        <ccTool>
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/btorrent1">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/ccn-common">
+        <ccTool>
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/ccn-exp1">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/ccn-mt1">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/ccn-tap-vlc">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/coap">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/dce-emu-ping">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/iperf-multi">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/mt2">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/mt3">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/ping">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/ping-mt1">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/sleep">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/tuto1">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/tuto2">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/myscripts/tuto3">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/netlink">
+        <ccTool>
+          <incDir>
+            <pElem>build/netlink</pElem>
+            <pElem>netlink</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/test/addons">
+        <ccTool>
+          <incDir>
+            <pElem>build/test</pElem>
+            <pElem>test</pElem>
+            <pElem>build/test/addons</pElem>
+            <pElem>test/addons</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/utils">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>../../build/include/ns3.26</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="helper/ccn-client-helper.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="helper/dce-application-helper.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="helper/dce-manager-helper.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="helper/freebsd-stack-helper.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="helper/ipv4-dce-routing-helper.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="helper/linux-stack-helper.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/cmsg.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/cooja-loader-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-alloc.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-application.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-at.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-credentials.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-cxa.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-debug.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-dirent.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-dl.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-env.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-global-variables.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-manager.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-misc.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-netdb.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-node-context.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-poll.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-pthread-cond.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-pthread-mutex.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-pthread.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-pwd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-semaphore.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-signal.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-stat.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-stdio.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-stdlib.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-string.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-syslog.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-termio.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-time.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-timerfd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-umask.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-vfs.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce-wait.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dce.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/dlm-loader-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/elf-cache.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/elf-dependencies.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/elf-ldd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/exec-utils.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/fiber-manager.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/fifo-buffer.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/file-usage.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/freebsd-socket-fd-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/freebsd/ipv4-freebsd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/ipv4-dce-routing.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/kernel-socket-fd-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/kernel-socket-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/kingsley-alloc.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/libc-dce.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/libc-global-variables.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LIBSETUP=libc_setup</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/libc-setup.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LIBSETUP=libc_setup</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/libc.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LIBSETUP=libc_setup</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/linux-socket-fd-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/linux/ipv4-linux.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/ipv6-linux.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-dccp-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-dccp-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-dccp6-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-dccp6-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-ipv4-raw-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-ipv4-raw-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-ipv6-raw-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-ipv6-raw-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-sctp-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-sctp-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-sctp6-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-sctp6-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-socket-impl.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-tcp-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-tcp-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-tcp6-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-tcp6-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-udp-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-udp-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-udp6-socket-factory-impl.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/linux/linux-udp6-socket-factory.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="model/loader-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/local-datagram-socket-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/local-socket-fd-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/local-socket-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/local-stream-socket-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/ns3-socket-fd-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/pipe-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/process-delay-model.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/pthread-fiber-manager.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/rr-task-scheduler.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/socket-fd-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/task-manager.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/task-scheduler.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/ucontext-fiber-manager.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/unix-datagram-socket-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/unix-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/unix-file-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/unix-socket-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/unix-stream-socket-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/unix-timer-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/utils.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/wait-queue.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="model/waiter.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>../net-next-sim-2.6.36/arch/sim</pElem>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="myscripts/btorrent1/dce-bt1.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/ccn-common/bug1167.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="myscripts/ccn-common/lanceur.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="4">
+        </cTool>
+      </item>
+      <item path="myscripts/ccn-common/my-client.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="4">
+        </cTool>
+      </item>
+      <item path="myscripts/ccn-common/my-serveur.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="4">
+        </cTool>
+      </item>
+      <item path="myscripts/ccn-exp1/dce-ccn-exp1.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/ccn-mt1/ccn-mt1.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/ccn-tap-vlc/dce-ccn-vlc.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="myscripts/coap/dce-coap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/dce-emu-ping/dce-emu-ping.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="myscripts/dce-emu-ping/misc-tools.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="myscripts/iperf-multi/dce-iperf-multi.cc"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="myscripts/loaders-test/dce-twin.cc" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <incDir>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="myscripts/loaders-test/mylib.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="myscripts/loaders-test/mytest.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="myscripts/mt2/dce-mt2.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/mt2/mcreceive.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="4">
+        </cTool>
+      </item>
+      <item path="myscripts/mt2/mcsend.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="4">
+        </cTool>
+      </item>
+      <item path="myscripts/mt3/dce-mt3.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/ping-mt1/ping-mt1.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/ping/dce-ping.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/ping/misc-tools.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/sleep/dce-sleep.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/sleep/tenseconds.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="4">
+        </cTool>
+      </item>
+      <item path="myscripts/tuto1/dce-tuto1.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/tuto2/dce-tuto2.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="myscripts/tuto3/dce-tuto3.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="netlink/netlink-attribute.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="netlink/netlink-message-route.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="netlink/netlink-message.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="netlink/netlink-socket-address.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="netlink/netlink-socket-factory.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="netlink/netlink-socket.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="test/addons/dce-linux-ip6-test.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="test/dce-cradle-test.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build/test</pElem>
+            <pElem>test</pElem>
+            <pElem>build/test/addons</pElem>
+            <pElem>test/addons</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="test/dce-manager-test.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build/test</pElem>
+            <pElem>test</pElem>
+            <pElem>build/test/addons</pElem>
+            <pElem>test/addons</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="test/dce-mptcp-test.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build/test</pElem>
+            <pElem>test</pElem>
+            <pElem>build/test/addons</pElem>
+            <pElem>test/addons</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_GTK2=1</Elem>
+            <Elem>HAVE_LIBXML2=1</Elem>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="test/netlink-socket-test.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build/netlink</pElem>
+            <pElem>netlink</pElem>
+            <pElem>build/test</pElem>
+            <pElem>test</pElem>
+            <pElem>build/include</pElem>
+            <pElem>include</pElem>
+            <pElem>../../build/include/ns3-dev</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_SQLITE3=1</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="test/test-bug-multi-select.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-clock-gettime.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-cond.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-dirent.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-empty.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-env.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-exec-target-1.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-exec.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-fd-simple.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-fork-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-fork.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-gcc-builtin-apply.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-ioctl.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-iperf.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-local-socket.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-macros.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="test/test-malloc-2.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-malloc.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-mutex.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-name.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-nanosleep.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-netdb.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-once.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-pipe.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-poll.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-pthread-key.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-pthread.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-random.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-raw-socket.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-select.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-sem.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-signal.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-sleep.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-socket.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-stdio.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-stdlib.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-strerror.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-string.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-tcp-socket.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-timer-fd.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="test/test-tsearch.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/model</pElem>
+            <pElem>model</pElem>
+            <pElem>build/model/freebsd</pElem>
+            <pElem>model/freebsd</pElem>
+            <pElem>build/helper</pElem>
+            <pElem>helper</pElem>
+            <pElem>build/model/linux</pElem>
+            <pElem>model/linux</pElem>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NS_TEST_SOURCEDIR=./test</Elem>
+          </preprocessorList>
+          <undefinedList>
+            <Elem>_FORTIFY_SOURCE</Elem>
+          </undefinedList>
+        </ccTool>
+      </item>
+      <item path="utils/dce-runner.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="4">
+        </cTool>
+      </item>
+      <item path="utils/dcemakeversion.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="3">
+        </cTool>
+      </item>
+      <item path="utils/test-runner.cc" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
